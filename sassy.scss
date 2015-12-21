@@ -1,0 +1,37 @@
+body {
+  background-color: #fff;
+}
+li {
+  list-style-type: none;
+}
+
+.header {
+      z-index: 15;
+      width: 100%;
+      background-color: rgb(94, 119, 130) ;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      height: 800px;
+      margin-top: -21px;
+      display: block;
+
+        .name {
+          padding-top: 100px;
+          text-align: center;
+          font-family: 'Oswald';
+          margin: 0;
+          color: rgb(159, 70, 81);
+          text-shadow: #fff 8px -8px 0,#fff 7px -7px 0,#fff 6px -6px 0,#fff 5px -5px 0,#fff 4px -4px 0,#fff 3px -3px 0,#fff 3px -3px 0,#fff 2px -2px 0,#fff 1px -1px 5px;
+          font-weight: initial;
+          letter-spacing: 12px;
+          font-size: 7em;
+          position: relative;
+        }
+}
+.chewy {
+  display: block;
+  z-index: -1;
+  height: 1150px;
+  position: fixed;
+}
