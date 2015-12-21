@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "style": "node-sass sassy.scss styles.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^2.1.4",
     "node-sass": "^3.4.2",
     "serve": "^1.4.0"
   },
