@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "jquery": "^2.1.4",
     "node-sass": "^3.4.2",
     "serve": "^1.4.0"

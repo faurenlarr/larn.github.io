@@ -10,10 +10,11 @@ $(window).scroll(function() {
     ///Block A
     if ($(this).scrollTop() >= $('#sectiona').offset().top - 25) {
         // $( ".navbar" ).fadeIn(500);
-        $( ".pic" ).removeClass('hidden').addClass('show slide');
+        $(".pic").removeClass('hidden').addClass('show slide');
         $(".words").removeClass('hidden').addClass('show slide');
-      //  $('nav a').stop().removeClass('active');
-      //  $('nav a:eq(0)').stop().addClass('active');
+        $(".contact").removeClass('hidden').addClass('show slide');
+        $('.info').removeClass('hidden').addClass('show slide');
+
     }
 
     ///Block B
@@ -52,11 +53,14 @@ $(window).scroll(function() {
 (function() {
 
 
-      $(".header").on("mouseover", ".fa-arrow-down", function() {
+      $(".header").on("mouseover", ".fa-hand-spock-o", function() {
           $('html, body').animate({
               scrollTop: $("#sectiona").offset().top }, 1000);
           });
 
+      // $('.pic').on('mouseover', 'img', function(){
+      //     $('img').addClass('changeimage');
+      // });
 
 
 
