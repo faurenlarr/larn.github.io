@@ -492,12 +492,60 @@ li {
 
 .sectionc {
   height: 750px;
+  .titleres {
+    color: #c9ddbc;
+    text-align: center;
+
+    font-size: 50px;
+  }
       .boxA {
-        h1 {
+        // margin-left: 5%;
+        margin-top: 2%;
+          line-height: 25px;
+        h2 {
           color: #c9ddbc;
+          text-align: center;
+        }
+        strong {
+          font-size: 15px;
         }
         p {
           color: #8a8ea9;
+          text-align: center;
         }
       }
+      .boxB {
+        margin-top: 2%;
+        line-height: 25px;
+        h2 {
+          color: #c9ddbc;
+          text-align: center;
+        }
+        strong {
+          font-size: 15px;
+
+        }
+        p {
+          color: #8a8ea9;
+          text-align: center;
+        }
+      }
+      .boxC {
+        margin-top: 2%;
+        line-height: 25px;
+        h2 {
+          color: #c9ddbc;
+          text-align: center;
+        }
+        strong {
+          font-size: 15px;
+
+        }
+        p {
+          color: #8a8ea9;
+          text-align: center;
+        }
+      }
+
+
 }

@@ -257,7 +257,40 @@ li {
 
 .sectionc {
   height: 750px; }
-  .sectionc .boxA h1 {
-    color: #c9ddbc; }
-  .sectionc .boxA p {
-    color: #8a8ea9; }
+  .sectionc .titleres {
+    color: #c9ddbc;
+    text-align: center;
+    font-size: 50px; }
+  .sectionc .boxA {
+    margin-top: 2%;
+    line-height: 25px; }
+    .sectionc .boxA h2 {
+      color: #c9ddbc;
+      text-align: center; }
+    .sectionc .boxA strong {
+      font-size: 15px; }
+    .sectionc .boxA p {
+      color: #8a8ea9;
+      text-align: center; }
+  .sectionc .boxB {
+    margin-top: 2%;
+    line-height: 25px; }
+    .sectionc .boxB h2 {
+      color: #c9ddbc;
+      text-align: center; }
+    .sectionc .boxB strong {
+      font-size: 15px; }
+    .sectionc .boxB p {
+      color: #8a8ea9;
+      text-align: center; }
+  .sectionc .boxC {
+    margin-top: 2%;
+    line-height: 25px; }
+    .sectionc .boxC h2 {
+      color: #c9ddbc;
+      text-align: center; }
+    .sectionc .boxC strong {
+      font-size: 15px; }
+    .sectionc .boxC p {
+      color: #8a8ea9;
+      text-align: center; }
