@@ -38,13 +38,6 @@ li {
     }
 
 .header {
-      // z-index: 15;
-      // position: relative;
-      // background-color: #547BF9;
-      // background-color: #4c5f76;
-      // background-color: rgb(12, 124, 120);//best
-      // background-color: rgb(59, 163, 159);//the best
-      // background-color: #93b87a;
       background-color: black;
       opacity: .5;
       margin: 0;
@@ -62,19 +55,11 @@ li {
           font-weight: bold;
           margin: 0;
           color: #c9ddbc;
-          // color: rgb(219, 173, 204);
-          // color: #93b87a;// the best
 
-          // color: rgba(119, 11, 15, 0.35);
-          // color: rgb(56, 106, 50);
-
-
-          // -webkit-text-stroke: 1px #fff;
           text-shadow: #fff 7px -7px 0,#fff 6px -6px 0,#fff 5px -5px 0,#fff 4px -4px 0,#fff 3px -3px 0,#fff 3px -3px 0,#fff 2px -2px 0;
           font-weight: initial;
           letter-spacing: 8px;
           font-size: 9em;
-          // position: relative;
         }
 
 
@@ -85,14 +70,12 @@ li {
           letter-spacing: 12px;
           font-weight: bold;
           margin: 0;
-          // color: #547BF9 ;
           color: rgb(219, 173, 204);
           -webkit-text-stroke: 1px #fff;
           text-shadow: #fff 7px -7px 0,#fff 6px -6px 0,#fff 5px -5px 0,#fff 4px -4px 0,#fff 3px -3px 0,#fff 3px -3px 0,#fff 2px -2px 0;
           font-weight: initial;
           letter-spacing: 8px;
           font-size: 9em;
-          // position: relative;
         }
         .spanish {
 
@@ -101,14 +84,12 @@ li {
           letter-spacing: 12px;
           font-weight: bold;
           margin: 0;
-          // color: #547BF9 ;
           color: rgb(219, 173, 204);
           -webkit-text-stroke: 1px #fff;
           text-shadow: #fff 7px -7px 0,#fff 6px -6px 0,#fff 5px -5px 0,#fff 4px -4px 0,#fff 3px -3px 0,#fff 3px -3px 0,#fff 2px -2px 0;
           font-weight: initial;
           letter-spacing: 8px;
           font-size: 9em;
-          // position: relative;
         }
         .fa-hand-peace-o {
 
@@ -327,13 +308,7 @@ li {
 
             }
 
-              // i {
-              //   color:#141e51;
-              //   font-size: 25px;
-              //   margin-left: 10px;
-              //   opacity: .5;
-              //
-              // }
+
           }
   .contact {
       padding-left: 67px;
@@ -399,13 +374,9 @@ li {
 
 .sectionb {
   height: 750px;
-  // background-color: #93b87a;
-  // background-color: rgb(12, 124, 120);
-  // background-color: rgb(59, 163, 159);
   background-color: white;
 
   .circles {
-    // background-color:#808080;
     background-color: #e4eedd;
     height: 400px;
 
@@ -521,7 +492,7 @@ li {
 
 .sectionc {
   height: 750px;
-      #blockA {
+      .boxA {
         h1 {
           color: #c9ddbc;
         }
