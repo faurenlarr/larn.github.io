@@ -257,7 +257,3 @@ li {
 
 .sectionc {
   height: 750px; }
-  .sectionc #blockA h1 {
-    color: #c9ddbc; }
-  .sectionc #blockA p {
-    color: #8a8ea9; }
