@@ -20,6 +20,7 @@ $(window).scroll(function() {
       $('.two').removeClass('hidden').addClass('show slide');
       $('.three').removeClass('hidden').addClass('show slide');
       $('.viewother').removeClass('hidden').addClass('show slide');
+      $('.circles').removeClass('hidden').addClass('slide');
 
     }
 
@@ -34,10 +35,10 @@ $(window).scroll(function() {
 (function() {
 
 
-      $(".header").on("mouseover", ".fa-hand-peace-o", function() {
-          $('html, body').animate({
-              scrollTop: $(".sectiona").offset().top }, 1000);
-          });
+      // $(".header").on("mouseover", ".fa-hand-peace-o", function() {
+      //     $('html, body').animate({
+      //         scrollTop: $(".sectiona").offset().top }, 1000);
+      //     });
 
 
       $('.sectiona').on('click', '.res', function(){
