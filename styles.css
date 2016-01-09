@@ -28,8 +28,7 @@ a {
   -ms-animation: pop-in 0.3s; }
 
 .header {
-  background-color: black;
-  opacity: .5;
+  background-color: #8f919f;
   margin: 0;
   padding: 0;
   height: 750px; }
@@ -59,8 +58,8 @@ a {
     letter-spacing: 12px;
     font-weight: bold;
     margin: 0;
-    color: #c9ddbc;
-    -webkit-text-stroke: 2px black;
+    color: #e4eedd;
+    -webkit-text-stroke: 2px #8f919f;
     text-shadow: #fff 7px -7px 0, #fff 6px -6px 0, #fff 5px -5px 0, #fff 4px -4px 0, #fff 3px -3px 0, #fff 3px -3px 0, #fff 2px -2px 0;
     font-weight: initial;
     letter-spacing: 8px;
@@ -71,9 +70,8 @@ a {
     letter-spacing: 12px;
     font-weight: bold;
     margin: 0;
-    color: #dbadcc;
-    -webkit-text-stroke: 1px #fff;
-    text-shadow: #fff 7px -7px 0, #fff 6px -6px 0, #fff 5px -5px 0, #fff 4px -4px 0, #fff 3px -3px 0, #fff 3px -3px 0, #fff 2px -2px 0;
+    color: #e4eedd;
+    -webkit-text-stroke: 1px #9b9eb4;
     font-weight: initial;
     letter-spacing: 8px;
     font-size: 9em; }
@@ -111,13 +109,12 @@ a {
     margin-left: 40px;
     color: #c9ddbc; }
   .sectiona .words h5 {
-    color: #141e51;
+    color: #9b9eb4;
     font-size: 25px;
     margin-top: -9px;
-    margin-left: 40px;
-    opacity: .5; }
+    margin-left: 40px; }
   .sectiona .words h4 {
-    color: #8a8ea9;
+    color: #9b9eb4;
     line-height: 30px;
     margin-left: 39px;
     margin-top: 82px; }
@@ -128,7 +125,7 @@ a {
     letter-spacing: 4px;
     line-height: 43px; }
   .sectiona .words a {
-    color: #141e51;
+    color: black;
     font-size: 20px;
     text-decoration: none; }
   .sectiona .tabs {
@@ -146,7 +143,7 @@ a {
         margin-left: 72%;
         width: 27%; }
         .sectiona .tabs .projects h4:hover {
-          color: #8a8ea9;
+          color: #9b9eb4;
           border: none;
           font-size: 30px; }
     .sectiona .tabs .resume {
@@ -162,7 +159,7 @@ a {
         border-bottom: 4px solid #c9ddbc;
         padding: 5px; }
         .sectiona .tabs .resume h4:hover {
-          color: #8a8ea9;
+          color: #9b9eb4;
           border: none;
           font-size: 30px; }
     .sectiona .tabs .contab {
@@ -177,7 +174,7 @@ a {
         border-bottom: 4px solid #c9ddbc;
         padding: 5px; }
         .sectiona .tabs .contab h4:hover {
-          color: #8a8ea9;
+          color: #9b9eb4;
           border: none;
           font-size: 30px; }
   .sectiona .pic {
@@ -198,7 +195,7 @@ a {
     color: #c9ddbc;
     line-height: 6px; }
   .sectiona .info h4 {
-    color: #8a8ea9;
+    color: #9b9eb4;
     line-height: 35px;
     margin-left: 11px;
     letter-spacing: 4px; }
@@ -213,37 +210,35 @@ a {
     margin-left: 175px; }
   .sectiona .info a {
     font-size: 30px;
-    color: #141e51; }
+    color: black; }
   .sectiona .contact {
     padding-left: 67px; }
+    .sectiona .contact .fa {
+      color: #9b9eb4; }
     .sectiona .contact .contactme {
       margin-top: 180px; }
     .sectiona .contact h4 {
       padding-top: 13px;
-      color: #c9ddbc;
+      color: #9b9eb4;
       letter-spacing: 3px;
       font-size: 25px; }
     .sectiona .contact i {
-      color: #8a8ea9;
       font-size: 25px;
       margin-left: 10px; }
     .sectiona .contact .fa-envelope {
-      color: #141e51; }
+      color: #9b9eb4; }
     .sectiona .contact a {
       text-decoration: none;
-      color: #141e51; }
+      color: black; }
     .sectiona .contact h5 {
       margin-left: 2px;
       letter-spacing: 3px;
-      color: #8a8ea9;
+      color: #9b9eb4;
       display: inline-block;
       line-height: 0px; }
       .sectiona .contact h5 a {
         text-decoration: none;
-        color: #8a8ea9; }
-    .sectiona .contact i {
-      color: #141e51;
-      opacity: .5; }
+        color: #9b9eb4; }
     .sectiona .contact .fa-phone {
       margin-right: 5px; }
 
@@ -254,23 +249,23 @@ a {
     background-color: #e4eedd;
     height: 750px; }
     .sectionb .circles .one .projinfo, .sectionb .circles .two .projinfo, .sectionb .circles .three .projinfo {
-      color: #8a8ea9;
+      color: #9b9eb4;
       margin-top: 15%;
       text-align: center;
       font-size: 16px; }
     .sectionb .circles .one div img, .sectionb .circles .two div img, .sectionb .circles .three div img {
       margin-top: 80px;
-      margin-left: 75px;
+      margin-left: 13%;
       border-radius: 200px;
-      height: 250px;
-      width: 250px;
+      height: 300px;
+      width: 300px;
       border: 5px solid white; }
     .sectionb .circles .one div h4, .sectionb .circles .two div h4, .sectionb .circles .three div h4 {
-      color: #8a8ea9;
+      color: #9b9eb4;
       margin-left: 36%; }
       .sectionb .circles .one div h4 a, .sectionb .circles .two div h4 a, .sectionb .circles .three div h4 a {
         text-decoration: none;
-        color: #8a8ea9; }
+        color: #9b9eb4; }
         .sectionb .circles .one div h4 a:hover, .sectionb .circles .two div h4 a:hover, .sectionb .circles .three div h4 a:hover {
           text-decoration: underline; }
   .sectionb .col-md-12 {
@@ -280,7 +275,7 @@ a {
     text-align: center; }
     .sectionb .viewother a {
       text-decoration: none;
-      color: #8a8ea9; }
+      color: #9b9eb4; }
       .sectionb .viewother a:hover {
         text-decoration: underline; }
 
@@ -290,6 +285,8 @@ a {
     color: #c9ddbc;
     text-align: center;
     font-size: 50px; }
+  .sectionc .skills .sklz {
+    display: inline-block; }
   .sectionc .boxA {
     margin-top: 2%;
     line-height: 25px; }
@@ -299,7 +296,7 @@ a {
     .sectionc .boxA strong {
       font-size: 15px; }
     .sectionc .boxA p {
-      color: #8a8ea9;
+      color: #9b9eb4;
       text-align: center; }
   .sectionc .boxB {
     margin-top: 2%;
@@ -310,7 +307,7 @@ a {
     .sectionc .boxB strong {
       font-size: 15px; }
     .sectionc .boxB p {
-      color: #8a8ea9;
+      color: #9b9eb4;
       text-align: center; }
   .sectionc .boxC {
     margin-top: 2%;
@@ -321,5 +318,39 @@ a {
     .sectionc .boxC strong {
       font-size: 15px; }
     .sectionc .boxC p {
-      color: #8a8ea9;
+      color: #9b9eb4;
       text-align: center; }
+
+.sectiond {
+  background-color: #8f919f;
+  height: 500px;
+  text-align: center; }
+  .sectiond h1 {
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: 12px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    font-weight: initial;
+    letter-spacing: 8px;
+    font-size: 50px; }
+  .sectiond h2 {
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #c9ddbc; }
+  .sectiond h4 {
+    color: white;
+    text-align: center;
+    display: inline-block; }
+    .sectiond h4 .git, .sectiond h4 .li {
+      font-size: 30px;
+      display: inline-block; }
+    .sectiond h4 a {
+      text-decoration: none;
+      color: white; }
+  .sectiond i {
+    margin-right: 10px;
+    font-size: 25px; }

@@ -35,11 +35,6 @@ $(window).scroll(function() {
 (function() {
 
 
-      // $(".header").on("mouseover", ".fa-hand-peace-o", function() {
-      //     $('html, body').animate({
-      //         scrollTop: $(".sectiona").offset().top }, 1000);
-      //     });
-
 
       $('.sectiona').on('click', '.res', function(){
         $('html,body').animate ({
@@ -52,6 +47,10 @@ $(window).scroll(function() {
               scrollTop: $('.sectionb').offset().top }, 1000);
           });
 
+      $('.sectiona').on('click', '.contab', function(){
+          $('html, body').animate({
+              scrollTop: $('.sectiond').offset().top }, 1000);
+          });
 
 
 }());

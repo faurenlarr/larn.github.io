@@ -32,8 +32,9 @@ a {
     }
 
 .header {
-      background-color: black;
-      opacity: .5;
+      // background-color: black;
+      // opacity: .5;
+      background-color: #8f919f;
       margin: 0;
       padding: 0;
       height: 750px;
@@ -77,8 +78,9 @@ a {
           letter-spacing: 12px;
           font-weight: bold;
           margin: 0;
-          color: #c9ddbc;
-          -webkit-text-stroke: 2px black;
+          // color: #c9ddbc;
+          color: #e4eedd;
+          -webkit-text-stroke: 2px #8f919f;
           text-shadow: #fff 7px -7px 0,#fff 6px -6px 0,#fff 5px -5px 0,#fff 4px -4px 0,#fff 3px -3px 0,#fff 3px -3px 0,#fff 2px -2px 0;
           font-weight: initial;
           letter-spacing: 8px;
@@ -93,9 +95,12 @@ a {
           letter-spacing: 12px;
           font-weight: bold;
           margin: 0;
-          color: rgb(219, 173, 204);
-          -webkit-text-stroke: 1px #fff;
-          text-shadow: #fff 7px -7px 0,#fff 6px -6px 0,#fff 5px -5px 0,#fff 4px -4px 0,#fff 3px -3px 0,#fff 3px -3px 0,#fff 2px -2px 0;
+          // color: rgb(219, 173, 204);
+          color: #e4eedd;
+          // -webkit-text-stroke: 1px #fff;
+          -webkit-text-stroke: 1px #9b9eb4;
+
+          // text-shadow: #fff 7px -7px 0,#fff 6px -6px 0,#fff 5px -5px 0,#fff 4px -4px 0,#fff 3px -3px 0,#fff 3px -3px 0,#fff 2px -2px 0;
           font-weight: initial;
           letter-spacing: 8px;
           font-size: 9em;
@@ -158,16 +163,16 @@ a {
       }
 
       h5 {
-          color: #141e51;
+          color: #9b9eb4;
         font-size: 25px;
         margin-top: -9px;
         margin-left: 40px;
-        opacity: .5;
+        // opacity: .5;
 
 
       }
       h4 {
-        color:  #8a8ea9;
+        color:  #9b9eb4;
         // opacity: .5;
         line-height: 30px;
         margin-left: 39px;
@@ -184,7 +189,7 @@ a {
 
       a {
 
-        color: #141e51;
+        color: black;
         font-size: 20px;
 
         text-decoration: none;
@@ -208,7 +213,7 @@ a {
                               margin-left: 72%;
                               width: 27%;
                                     &:hover {
-                                      color: #8a8ea9;
+                                      color: #9b9eb4;
                                       border: none;
                                       font-size: 30px;
 
@@ -233,7 +238,7 @@ a {
                               border-bottom: 4px solid #c9ddbc;
                               padding: 5px;
                               &:hover {
-                                color: #8a8ea9;
+                                color: #9b9eb4;
                                 border: none;
                                 font-size: 30px;
 
@@ -259,7 +264,7 @@ a {
                       border-bottom: 4px solid #c9ddbc;
                       padding: 5px;
                       &:hover {
-                        color: #8a8ea9;
+                        color: #9b9eb4;
                         border: none;
                         font-size: 30px;
 
@@ -305,7 +310,7 @@ a {
 
             }
             h4 {
-              color: #8a8ea9;
+              color: #9b9eb4;
               line-height: 35px;
               margin-left: 11px;
               letter-spacing: 4px;
@@ -326,7 +331,7 @@ a {
             a {
 
               font-size: 30px;
-              color: #141e51;
+              color: black;
 
 
             }
@@ -335,7 +340,9 @@ a {
           }
   .contact {
       padding-left: 67px;
-
+    .fa {
+      color: #9b9eb4;
+    }
             .contactme {
               margin-top: 180px;
             }
@@ -343,7 +350,7 @@ a {
             h4 {
               padding-top: 13px;
               // color: #93b87a;
-              color: #c9ddbc;
+              color: #9b9eb4;
 
               letter-spacing: 3px;
               font-size: 25px;
@@ -351,18 +358,18 @@ a {
 
             }
             i {
-              color:#8a8ea9;
+              // color:#9b9eb4;
               font-size: 25px;
               margin-left: 10px;
 
 
             }
             .fa-envelope  {
-              color: #141e51;
+              color: #9b9eb4;
             }
             a {
               text-decoration: none;
-              color: #141e51;
+              color: black;
 
 
             }
@@ -370,19 +377,16 @@ a {
               margin-left: 2px;
               letter-spacing: 3px;
               // opacity: .5;
-                color: #8a8ea9;
+                color: #9b9eb4;
                 display: inline-block;
                 line-height: 0px;
                     a {
                       text-decoration: none;
-                      color: #8a8ea9;
+                      color: #9b9eb4;
                     }
             }
 
-            i {
-              color: #141e51;
-              opacity: .5;
-            }
+
 
             .fa-phone {
               margin-right: 5px;
@@ -422,7 +426,7 @@ a {
     //                     border-bottom: 4px solid #c9ddbc;
     //                     padding: 5px;
     //                     &:hover {
-    //                       color: #8a8ea9;
+    //                       color: #9b9eb4;
     //                       border: none;
     //                       font-size: 30px;
     //
@@ -448,7 +452,7 @@ a {
     //             border-bottom: 4px solid #c9ddbc;
     //             padding: 5px;
     //             &:hover {
-    //               color: #8a8ea9;
+    //               color: #9b9eb4;
     //               border: none;
     //               font-size: 30px;
     //
@@ -465,7 +469,8 @@ a {
 
       .one, .two, .three {
         .projinfo {
-          color: #8a8ea9;
+          // color: #9b9eb4;
+          color: #9b9eb4;
           margin-top: 15%;
           text-align: center;
           font-size: 16px;
@@ -473,19 +478,20 @@ a {
         div {
           img {
             margin-top: 80px;
-            margin-left: 75px;
+            margin-left: 13%;
             border-radius: 200px;
-            height: 250px;
-            width: 250px;
+            height: 300px;
+            width: 300px;
             border: 5px solid white;
           }
           h4 {
-            color: #8a8ea9;
+            color: #9b9eb4;
+            // color: #808080;
             margin-left: 36%;
             a {
 
               text-decoration: none;
-              color: #8a8ea9;
+              color: #9b9eb4;
               &:hover {
                 text-decoration: underline;
               }
@@ -510,7 +516,7 @@ a {
             text-align: center;
           a {
             text-decoration: none;
-            color: #8a8ea9;
+            color: #9b9eb4;
             &:hover {
               text-decoration: underline;
             }
@@ -527,6 +533,11 @@ a {
 
     font-size: 50px;
   }
+  .skills {
+    .sklz {
+      display: inline-block;
+    }
+  }
       .boxA {
         // margin-left: 5%;
         margin-top: 2%;
@@ -539,13 +550,14 @@ a {
           font-size: 15px;
         }
         p {
-          color: #8a8ea9;
+          color: #9b9eb4;
           text-align: center;
         }
       }
       .boxB {
         margin-top: 2%;
         line-height: 25px;
+
         h2 {
           color: #c9ddbc;
           text-align: center;
@@ -555,7 +567,7 @@ a {
 
         }
         p {
-          color: #8a8ea9;
+          color: #9b9eb4;
           text-align: center;
         }
       }
@@ -571,10 +583,59 @@ a {
 
         }
         p {
-          color: #8a8ea9;
+          color: #9b9eb4;
           text-align: center;
         }
       }
 
 
 }
+
+.sectiond {
+    background-color: #8f919f;
+    height: 500px;
+    // margin-top: 10%;
+    text-align: center;
+    h1 {
+      padding-top: 100px;
+      text-align: center;
+      letter-spacing: 12px;
+      font-weight: bold;
+      margin: 0;
+      // color: #c9ddbc;
+      color: white;
+      // -webkit-text-stroke: 2px gray;
+      font-weight: initial;
+      letter-spacing: 8px;
+      font-size: 50px;
+    }
+    h2 {
+      padding-top: 5%;
+      color: white;
+      text-align: center;
+      letter-spacing: 5px;
+        color: #c9ddbc;
+
+    }
+    h4 {
+      color: white;
+      text-align: center;
+      display: inline-block;
+            .git, .li {
+              font-size: 30px;
+              display: inline-block;
+            }
+            a {
+              text-decoration: none;
+              color: white;
+            }
+    }
+    i {
+      margin-right: 10px;
+      font-size: 25px;
+    }
+
+
+
+
+  }
