@@ -1,0 +1,60 @@
+@media (max-width: 450px) {
+  .header {
+    height: 660px; }
+    .header .navbar .name {
+      font-size: 68px;
+      padding-top: 100px; }
+    .header .navbar .introinfo h2 {
+      margin-top: 100px; }
+  .tabs {
+    width: 99.9%;
+    border-top: none;
+    max-height: 85px; }
+    .tabs .about h4, .tabs .contab h4, .tabs .projects h4, .tabs .resume h4 {
+      font-size: 15px;
+      display: block;
+      margin: 10px 0 0 10px; }
+      .tabs .about h4:hover, .tabs .contab h4:hover, .tabs .projects h4:hover, .tabs .resume h4:hover {
+        font-size: 15px; }
+    .tabs .about h4 {
+      margin-left: -3px; }
+  .sectiona .words h1 {
+    padding-top: 75px; }
+  .sectiona .words h4 {
+    margin-top: 225px;
+    margin-left: 10px; }
+  .sectiona .middle .pic {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -435px;
+    margin-left: 99px; }
+  .sectionb {
+    height: 200px; }
+    .sectionb .viewother {
+      padding-top: 70px; }
+      .sectionb .viewother a {
+        font-size: 30px;
+        letter-spacing: 4px; }
+  .one, .two, .three {
+    display: none; }
+  .contact {
+    display: none; }
+  .sectionc {
+    height: 1175px; }
+    .sectionc .titleres {
+      font-size: 35px;
+      padding-top: 15px;
+      text-decoration: underline; }
+  .boxA h2 {
+    font-size: 20px; }
+  .boxA p {
+    font-size: 12px; }
+  .boxB h2 {
+    font-size: 20px; }
+  .boxB p {
+    font-size: 12px; }
+  .noshow {
+    display: none; }
+  .sectiond h1 {
+    padding-top: 70px; } }

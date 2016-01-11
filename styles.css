@@ -1,6 +1,5 @@
 body {
-  font-family: 'Montserrat';
-  color: #547BF9; }
+  font-family: 'Montserrat'; }
 
 li {
   list-style-type: none; }
@@ -26,6 +25,69 @@ a {
   -webkit-animation: pop-in 0.3s;
   -moz-animation: pop-in 0.3s;
   -ms-animation: pop-in 0.3s; }
+
+.tabs {
+  position: fixed;
+  z-index: 15;
+  background-color: white;
+  max-height: 50px;
+  border-top: 4px solid #c9ddbc;
+  border-bottom: 4px solid #c9ddbc; }
+  .tabs .projects {
+    text-align: center;
+    display: inline-block; }
+    .tabs .projects h4 {
+      color: #c9ddbc;
+      letter-spacing: 3px;
+      -webkit-text-stroke: .5px #9b9eb4;
+      font-size: 20px;
+      width: 110%;
+      margin-left: -28px; }
+      .tabs .projects h4:hover {
+        color: #9b9eb4;
+        border: none;
+        font-size: 30px; }
+  .tabs .about {
+    text-align: center;
+    display: inline-block; }
+    .tabs .about h4 {
+      color: #c9ddbc;
+      letter-spacing: 3px;
+      -webkit-text-stroke: .5px #9b9eb4;
+      font-size: 20px;
+      width: 110%;
+      margin-left: -28px; }
+      .tabs .about h4:hover {
+        color: #9b9eb4;
+        border: none;
+        font-size: 30px; }
+  .tabs .resume {
+    display: inline-block;
+    text-align: center; }
+    .tabs .resume h4 {
+      color: #c9ddbc;
+      letter-spacing: 3px;
+      -webkit-text-stroke: .5px #9b9eb4;
+      font-size: 20px;
+      margin-left: -20px; }
+      .tabs .resume h4:hover {
+        color: #9b9eb4;
+        border: none;
+        font-size: 30px; }
+  .tabs .contab {
+    display: inline-block;
+    text-align: center; }
+    .tabs .contab h4 {
+      color: #c9ddbc;
+      letter-spacing: 3px;
+      -webkit-text-stroke: .5px #9b9eb4;
+      font-size: 20px;
+      width: 115%;
+      margin-left: -30px; }
+      .tabs .contab h4:hover {
+        color: #9b9eb4;
+        border: none;
+        font-size: 30px; }
 
 .header {
   background-color: #8f919f;
@@ -104,7 +166,7 @@ a {
   .sectiona .words span {
     color: #c9ddbc; }
   .sectiona .words h1 {
-    padding-top: 40px;
+    padding-top: 125px;
     font-size: 40px;
     margin-left: 40px;
     color: #c9ddbc; }
@@ -117,74 +179,22 @@ a {
     color: #9b9eb4;
     line-height: 30px;
     margin-left: 39px;
-    margin-top: 82px; }
+    margin-top: 150px; }
   .sectiona .words .subtitle {
     margin-top: -34px;
     letter-spacing: 4px; }
-  .sectiona .words .grad {
-    letter-spacing: 4px;
-    line-height: 43px; }
   .sectiona .words a {
     color: black;
     font-size: 20px;
     text-decoration: none; }
-  .sectiona .tabs {
-    margin-top: -88px; }
-    .sectiona .tabs .projects {
-      text-align: center;
-      display: inline-block; }
-      .sectiona .tabs .projects h4 {
-        color: #c9ddbc;
-        margin-top: 50%;
-        font-size: 20px;
-        border-top: 4px solid #c9ddbc;
-        border-bottom: 4px solid #c9ddbc;
-        padding: 5px;
-        margin-left: 72%;
-        width: 27%; }
-        .sectiona .tabs .projects h4:hover {
-          color: #9b9eb4;
-          border: none;
-          font-size: 30px; }
-    .sectiona .tabs .resume {
-      display: inline-block;
-      text-align: center; }
-      .sectiona .tabs .resume h4 {
-        color: #c9ddbc;
-        margin-top: 50%;
-        font-size: 20px;
-        margin-left: 38%;
-        width: 27%;
-        border-top: 4px solid #c9ddbc;
-        border-bottom: 4px solid #c9ddbc;
-        padding: 5px; }
-        .sectiona .tabs .resume h4:hover {
-          color: #9b9eb4;
-          border: none;
-          font-size: 30px; }
-    .sectiona .tabs .contab {
-      display: inline-block;
-      text-align: center; }
-      .sectiona .tabs .contab h4 {
-        color: #c9ddbc;
-        margin-top: 50%;
-        font-size: 20px;
-        width: 27%;
-        border-top: 4px solid #c9ddbc;
-        border-bottom: 4px solid #c9ddbc;
-        padding: 5px; }
-        .sectiona .tabs .contab h4:hover {
-          color: #9b9eb4;
-          border: none;
-          font-size: 30px; }
   .sectiona .pic {
     background-image: url("assets/alaska.jpg");
     background-size: cover;
     border-radius: 200px;
-    height: 250px;
-    width: 250px;
-    margin-top: 144px;
-    margin-left: 76px; }
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 50px; }
     .sectiona .pic:hover {
       background-image: url("assets/portrait.jpg"); }
   .sectiona .info h6 {
@@ -212,7 +222,8 @@ a {
     font-size: 30px;
     color: black; }
   .sectiona .contact {
-    padding-left: 67px; }
+    padding-left: 67px;
+    padding-top: 70px; }
     .sectiona .contact .fa {
       color: #9b9eb4; }
     .sectiona .contact .contactme {
@@ -243,22 +254,22 @@ a {
       margin-right: 5px; }
 
 .sectionb {
-  height: 750px;
+  height: 600px;
   background-color: white; }
   .sectionb .circles {
     background-color: #e4eedd;
-    height: 750px; }
+    height: 655px; }
     .sectionb .circles .one .projinfo, .sectionb .circles .two .projinfo, .sectionb .circles .three .projinfo {
       color: #9b9eb4;
-      margin-top: 15%;
+      margin-top: 9%;
       text-align: center;
       font-size: 16px; }
     .sectionb .circles .one div img, .sectionb .circles .two div img, .sectionb .circles .three div img {
       margin-top: 80px;
       margin-left: 13%;
       border-radius: 200px;
-      height: 300px;
-      width: 300px;
+      height: 275px;
+      width: 275px;
       border: 5px solid white; }
     .sectionb .circles .one div h4, .sectionb .circles .two div h4, .sectionb .circles .three div h4 {
       color: #9b9eb4;
@@ -271,7 +282,7 @@ a {
   .sectionb .col-md-12 {
     text-align: center; }
   .sectionb .viewother {
-    margin-top: 70px;
+    margin-top: 30px;
     text-align: center; }
     .sectionb .viewother a {
       text-decoration: none;
@@ -280,13 +291,16 @@ a {
         text-decoration: underline; }
 
 .sectionc {
-  height: 750px; }
+  background-color: white;
+  height: 655px; }
   .sectionc .titleres {
     color: #c9ddbc;
     text-align: center;
+    margin-top: 8%;
     font-size: 50px; }
   .sectionc .skills .sklz {
-    display: inline-block; }
+    display: inline-block;
+    width: 10%; }
   .sectionc .boxA {
     margin-top: 2%;
     line-height: 25px; }
@@ -323,10 +337,10 @@ a {
 
 .sectiond {
   background-color: #8f919f;
-  height: 500px;
+  height: 650px;
   text-align: center; }
   .sectiond h1 {
-    padding-top: 100px;
+    padding-top: 166px;
     text-align: center;
     letter-spacing: 12px;
     font-weight: bold;
