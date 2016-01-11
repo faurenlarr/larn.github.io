@@ -257,7 +257,7 @@ li {
 }
 
 .sectiona {
-  height: 800px;
+  height: 680px;
   background-color: #fff;
 
   // z-index: -1;
@@ -586,7 +586,7 @@ li {
   .titleres {
     color: #c9ddbc;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 0;
     font-size: 50px;
   }
 
@@ -633,6 +633,7 @@ li {
           a {
             text-decoration: none;
             color: #c9debb;
+            margin-left: 12px;
           }
         }
       }
