@@ -1,4 +1,67 @@
-@media (max-width: 1100px) {
+@media (min-width: 901px) and (max-width: 1200px) {
+  .tabs {
+    width: 100%; }
+    .tabs .col-md-3 {
+      width: 24%; }
+    .tabs .about h4, .tabs .projects h4, .tabs .resume h4, .tabs .contab h4 {
+      font-size: 25px; }
+      .tabs .about h4:hover, .tabs .projects h4:hover, .tabs .resume h4:hover, .tabs .contab h4:hover {
+        font-size: 15px; }
+  .sectionb {
+    height: auto; }
+    .sectionb .viewother {
+      padding-top: 70px;
+      margin-top: -664px; }
+      .sectionb .viewother a {
+        font-size: 50px;
+        letter-spacing: 4px; }
+  .one, .two, .three {
+    display: none; }
+  .contact {
+    display: none; }
+  .noshow {
+    display: none; }
+  .sectiona {
+    height: auto; }
+    .sectiona .words h1 {
+      padding-top: 75px;
+      font-size: 57px; }
+    .sectiona .words h4 {
+      margin-top: 102px;
+      margin-left: 10px;
+      font-size: 38px;
+      line-height: 58px; }
+    .sectiona .words h5 {
+      font-size: 35px; }
+    .sectiona .middle .pic {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      margin-top: -640px;
+      margin-left: 502px; }
+  .sectionc {
+    height: auto; }
+    .sectionc .titleres {
+      display: none; }
+    .sectionc .boxC p {
+      font-size: 30px;
+      line-height: 40px; }
+    .sectionc .boxC h2 {
+      font-size: 120px; }
+    .sectionc .boxB h2 {
+      font-size: 120px; }
+    .sectionc .boxB p {
+      font-size: 30px;
+      line-height: 40px; }
+    .sectionc .boxB h3 a {
+      display: none; }
+    .sectionc .boxA h2 {
+      font-size: 120px; }
+    .sectionc .boxA p {
+      font-size: 30px;
+      line-height: 40px; } }
+
+@media (max-width: 900px) {
   .header {
     height: 660px; }
     .header .navbar .name {
