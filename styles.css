@@ -325,6 +325,11 @@ li {
     .sectionc .boxB p {
       color: #9b9eb4;
       text-align: center; }
+    .sectionc .boxB h3 {
+      margin-top: 44px; }
+      .sectionc .boxB h3 a {
+        text-decoration: none;
+        color: #c9debb; }
   .sectionc .boxC {
     margin-top: 2%;
     line-height: 25px; }
@@ -335,7 +340,8 @@ li {
       font-size: 15px; }
     .sectionc .boxC p {
       color: #9b9eb4;
-      text-align: center; }
+      text-align: center;
+      font-size: 18px; }
 
 .sectiond {
   background-color: #8f919f;
