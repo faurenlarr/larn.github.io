@@ -342,7 +342,7 @@ li {
   height: 650px;
   text-align: center; }
   .sectiond h1 {
-    padding-top: 166px;
+    padding-top: 150px;
     text-align: center;
     letter-spacing: 12px;
     font-weight: bold;
@@ -357,6 +357,8 @@ li {
     text-align: center;
     letter-spacing: 5px;
     color: #c9ddbc; }
+  .sectiond h3 {
+    color: white; }
   .sectiond h4 {
     color: white;
     text-align: center;
