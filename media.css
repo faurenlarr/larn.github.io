@@ -21,13 +21,13 @@
   .sectiona .words h1 {
     padding-top: 75px; }
   .sectiona .words h4 {
-    margin-top: 225px;
+    margin-top: 189px;
     margin-left: 10px; }
   .sectiona .middle .pic {
     width: 150px;
     height: 150px;
     position: absolute;
-    margin-top: -435px;
+    margin-top: -300px;
     margin-left: 99px; }
   .sectionb {
     height: 200px; }
@@ -57,5 +57,9 @@
     font-size: 20px; }
   .boxB p {
     font-size: 12px; }
+  .boxB h3 a {
+    color: red;
+    font-size: 22px;
+    text-align: center; }
   .sectiond h1 {
     padding-top: 70px; } }
