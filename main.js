@@ -20,7 +20,7 @@ $(window).scroll(function() {
       // $('.one').removeClass('hidden').addClass('show slide');
       // $('.two').removeClass('hidden').addClass('show slide');
       // $('.three').removeClass('hidden').addClass('show slide');
-      $('.viewother').removeClass('hidden').addClass('show slide');
+      // $('.viewother').removeClass('hidden').addClass('show slide');
       // $('.circles').removeClass('hidden').addClass('slide');
 
     }

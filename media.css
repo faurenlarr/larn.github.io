@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 1100px) {
   .header {
     height: 660px; }
     .header .navbar .name {
@@ -32,13 +32,16 @@
   .sectionb {
     height: 200px; }
     .sectionb .viewother {
-      padding-top: 70px; }
+      padding-top: 70px;
+      margin-top: -664px; }
       .sectionb .viewother a {
         font-size: 30px;
         letter-spacing: 4px; }
   .one, .two, .three {
     display: none; }
   .contact {
+    display: none; }
+  .noshow {
     display: none; }
   .sectionc {
     height: 1175px; }
@@ -54,7 +57,5 @@
     font-size: 20px; }
   .boxB p {
     font-size: 12px; }
-  .noshow {
-    display: none; }
   .sectiond h1 {
     padding-top: 70px; } }
