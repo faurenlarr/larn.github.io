@@ -43,23 +43,29 @@
     height: auto; }
     .sectionc .titleres {
       display: none; }
+    .sectionc .boxC strong {
+      font-size: 30px; }
     .sectionc .boxC p {
-      font-size: 30px;
+      font-size: 25px;
       line-height: 40px; }
     .sectionc .boxC h2 {
       font-size: 120px; }
     .sectionc .boxB h2 {
       font-size: 120px; }
     .sectionc .boxB p {
-      font-size: 30px;
+      font-size: 18px;
       line-height: 40px; }
     .sectionc .boxB h3 a {
       display: none; }
+    .sectionc .boxB strong {
+      font-size: 30px; }
     .sectionc .boxA h2 {
       font-size: 120px; }
     .sectionc .boxA p {
-      font-size: 30px;
-      line-height: 40px; } }
+      font-size: 18px;
+      line-height: 40px; }
+    .sectionc .boxA strong {
+      font-size: 30px; } }
 
 @media (max-width: 900px) {
   .header {
