@@ -1,2 +1,2 @@
-# Please view my resume @
+Please view my resume @
 faurenlarr.github.io
