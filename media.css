@@ -1,73 +1,71 @@
-@media (min-width: 901px) and (max-width: 1200px) {
+@media (min-width: 901px) and (max-width: 1090px) {
   .tabs {
-    width: 100%; }
-    .tabs .col-md-3 {
-      width: 24%; }
-    .tabs .about h4, .tabs .projects h4, .tabs .resume h4, .tabs .contab h4 {
-      font-size: 25px; }
-      .tabs .about h4:hover, .tabs .projects h4:hover, .tabs .resume h4:hover, .tabs .contab h4:hover {
-        font-size: 15px; }
-  .sectionb {
-    height: auto; }
-    .sectionb .viewother {
-      padding-top: 70px;
-      margin-top: -664px; }
-      .sectionb .viewother a {
-        font-size: 50px;
-        letter-spacing: 4px; }
-  .one, .two, .three {
-    display: none; }
-  .contact {
-    display: none; }
-  .noshow {
-    display: none; }
-  .sectiona {
-    height: auto; }
-    .sectiona .words h1 {
-      padding-top: 75px;
-      font-size: 57px; }
-    .sectiona .words h4 {
-      margin-top: 102px;
-      margin-left: 10px;
-      font-size: 38px;
-      line-height: 58px; }
-    .sectiona .words h5 {
-      font-size: 35px; }
-    .sectiona .middle .pic {
-      width: 250px;
-      height: 250px;
-      position: absolute;
-      margin-top: -640px;
-      margin-left: 502px; }
-  .sectionc {
-    height: auto; }
-    .sectionc .titleres {
+    background-color: #8f91a0;
+    width: 0px;
+    border: none;
+    position: relative; }
+    .tabs .contab {
       display: none; }
-    .sectionc .boxC strong {
-      font-size: 30px; }
-    .sectionc .boxC p {
-      font-size: 25px;
-      line-height: 40px; }
-    .sectionc .boxC h2 {
-      font-size: 120px; }
-    .sectionc .boxB h2 {
-      font-size: 120px; }
-    .sectionc .boxB p {
-      font-size: 18px;
-      line-height: 40px; }
-    .sectionc .boxB h3 a {
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
       display: none; }
-    .sectionc .boxB strong {
-      font-size: 30px; }
-    .sectionc .boxA h2 {
-      font-size: 120px; }
-    .sectionc .boxA p {
-      font-size: 18px;
-      line-height: 40px; }
-    .sectionc .boxA strong {
-      font-size: 30px; } }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; } }
 
-@media (max-width: 900px) {
+@media (min-width: 801px) and (max-width: 900px) {
+  .tabs {
+    background-color: #8f91a0;
+    width: 0px;
+    border: none;
+    position: relative; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; } }
+
+@media (min-width: 670px) and (max-width: 800px) {
+  .tabs {
+    background-color: #8f91a0;
+    width: 0px;
+    border: none;
+    position: relative; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; }
   .header {
     height: 660px; }
     .header .navbar .name {
@@ -75,34 +73,95 @@
       padding-top: 100px; }
     .header .navbar .introinfo h2 {
       margin-top: 100px; }
-  .tabs {
-    width: 99.9%;
-    border-top: none;
-    max-height: 85px; }
-    .tabs .about h4, .tabs .contab h4, .tabs .projects h4, .tabs .resume h4 {
-      font-size: 15px;
-      display: block;
-      margin: 10px 0 0 10px; }
-      .tabs .about h4:hover, .tabs .contab h4:hover, .tabs .projects h4:hover, .tabs .resume h4:hover {
-        font-size: 15px; }
-    .tabs .about h4 {
-      margin-left: -3px; }
-  .sectiona .words h1 {
-    padding-top: 75px; }
-  .sectiona .words h4 {
-    margin-top: 189px;
-    margin-left: 10px; }
   .sectiona .middle .pic {
+    margin-top: -471px;
     width: 150px;
     height: 150px;
-    position: absolute;
-    margin-top: -300px;
-    margin-left: 99px; }
+    margin-left: 99px;
+    border: 2px solid red; } }
+
+@media (min-width: 465px) and (max-width: 669px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; }
+  .header {
+    height: 660px; }
+    .header .navbar .name {
+      font-size: 68px;
+      padding-top: 100px; }
+    .header .navbar .introinfo h2 {
+      margin-top: 100px; }
+  .sectiona .middle .pic {
+    margin-top: -351px;
+    width: 150px;
+    height: 150px;
+    margin-left: 99px; } }
+
+@media (max-width: 464px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; }
+  .header {
+    height: 660px; }
+    .header .navbar .name {
+      font-size: 68px;
+      padding-top: 100px; }
+    .header .navbar .introinfo h2 {
+      margin-top: 100px; }
+  .sectiona {
+    height: 623px; }
+    .sectiona .words h1 {
+      padding-top: 17px; }
+    .sectiona .words h4 {
+      margin-left: 18px; }
+    .sectiona .middle .pic {
+      margin-top: -422px;
+      width: 140px;
+      height: 140px;
+      margin-left: 172px; }
   .sectionb {
     height: 200px; }
     .sectionb .viewother {
       padding-top: 70px;
-      margin-top: -664px; }
+      margin-top: -719px;
+      text-align: center;
+      margin-left: 0%; }
       .sectionb .viewother a {
         font-size: 30px;
         letter-spacing: 4px; }
@@ -113,7 +172,7 @@
   .noshow {
     display: none; }
   .sectionc {
-    height: 1175px; }
+    height: 1014px; }
     .sectionc .titleres {
       font-size: 35px;
       padding-top: 15px;
