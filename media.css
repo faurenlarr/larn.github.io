@@ -19,7 +19,9 @@
     .tabs .resume {
       display: none; }
       .tabs .resume h4 {
-        display: none; } }
+        display: none; }
+  .sectiona .middle .pic {
+    display: none; } }
 
 @media (min-width: 801px) and (max-width: 900px) {
   .tabs {
@@ -42,9 +44,11 @@
     .tabs .resume {
       display: none; }
       .tabs .resume h4 {
-        display: none; } }
+        display: none; }
+  .sectiona .middle .pic {
+    display: none; } }
 
-@media (min-width: 670px) and (max-width: 800px) {
+@media (min-width: 736px) and (max-width: 800px) {
   .tabs {
     background-color: #8f91a0;
     width: 0px;
@@ -73,14 +77,48 @@
       padding-top: 100px; }
     .header .navbar .introinfo h2 {
       margin-top: 100px; }
+  .sectiona .words h1 {
+    padding-top: 66px; }
+  .sectiona .subtitle {
+    padding-bottom: 44px; }
   .sectiona .middle .pic {
-    margin-top: -471px;
-    width: 150px;
-    height: 150px;
-    margin-left: 99px;
-    border: 2px solid red; } }
+    display: none; } }
 
-@media (min-width: 465px) and (max-width: 669px) {
+@media (min-width: 670px) and (max-width: 735px) {
+  .tabs {
+    background-color: #8f91a0;
+    width: 0px;
+    border: none;
+    position: relative; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; }
+  .header {
+    height: 660px; }
+    .header .navbar .name {
+      font-size: 68px;
+      padding-top: 100px; }
+    .header .navbar .introinfo h2 {
+      margin-top: 100px; }
+  .sectiona .subtitle {
+    padding-bottom: 44px; }
+  .sectiona .middle .pic {
+    display: none; } }
+
+@media (min-width: 606px) and (max-width: 669px) {
   .tabs {
     width: 0px;
     border: none;
@@ -109,13 +147,49 @@
       padding-top: 100px; }
     .header .navbar .introinfo h2 {
       margin-top: 100px; }
+  .sectiona .subtitle {
+    padding-bottom: 44px; }
   .sectiona .middle .pic {
     margin-top: -351px;
     width: 150px;
     height: 150px;
     margin-left: 99px; } }
 
-@media (max-width: 464px) {
+@media (min-width: 551px) and (max-width: 605px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; }
+  .sectiona {
+    height: 623px; }
+    .sectiona .words h1 {
+      padding-top: 17px; }
+    .sectiona .words h4 {
+      margin-left: 18px; }
+    .sectiona .middle .pic {
+      margin-top: -323px;
+      width: 140px;
+      height: 140px;
+      margin-left: 172px; } }
+
+@media (min-width: 441px) and (max-width: 550px) {
   .tabs {
     width: 0px;
     border: none;
@@ -146,6 +220,166 @@
       margin-top: 100px; }
   .sectiona {
     height: 623px; }
+    .sectiona .subtitle {
+      padding-bottom: 44px; }
+    .sectiona .words h1 {
+      padding-top: 17px; }
+    .sectiona .words h4 {
+      margin-left: 18px; }
+    .sectiona .middle .pic {
+      margin-top: -365px;
+      width: 140px;
+      height: 140px;
+      margin-left: 172px; }
+  .sectionb {
+    height: 200px; }
+    .sectionb .viewother {
+      padding-top: 70px;
+      margin-top: -719px;
+      text-align: center;
+      margin-left: 0%; }
+      .sectionb .viewother a {
+        font-size: 30px;
+        letter-spacing: 4px; }
+  .one, .two, .three {
+    display: none; }
+  .contact {
+    display: none; }
+  .noshow {
+    display: none; }
+  .sectionc {
+    height: 1014px; }
+    .sectionc .titleres {
+      font-size: 35px;
+      padding-top: 15px;
+      text-decoration: underline; }
+  .boxA h2 {
+    font-size: 20px; }
+  .boxA p {
+    font-size: 12px; }
+  .boxB h2 {
+    font-size: 20px; }
+  .boxB p {
+    font-size: 12px; }
+  .boxB h3 a {
+    color: red;
+    font-size: 22px;
+    text-align: center; }
+  .sectiond h1 {
+    padding-top: 70px; } }
+
+@media (min-width: 400px) and (max-width: 440px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; }
+  .header {
+    height: 660px; }
+    .header .navbar .name {
+      font-size: 68px;
+      padding-top: 100px; }
+    .header .navbar .introinfo h2 {
+      margin-top: 100px; }
+  .sectiona {
+    height: 623px; }
+    .sectiona .subtitle {
+      padding-bottom: 44px; }
+    .sectiona .words h1 {
+      padding-top: 17px; }
+    .sectiona .words h4 {
+      margin-left: 18px; }
+    .sectiona .middle .pic {
+      margin-top: -350px;
+      width: 140px;
+      height: 140px;
+      margin-left: 172px; }
+  .sectionb {
+    height: 200px; }
+    .sectionb .viewother {
+      padding-top: 70px;
+      margin-top: -719px;
+      text-align: center;
+      margin-left: 0%; }
+      .sectionb .viewother a {
+        font-size: 30px;
+        letter-spacing: 4px; }
+  .one, .two, .three {
+    display: none; }
+  .contact {
+    display: none; }
+  .noshow {
+    display: none; }
+  .sectionc {
+    height: 1014px; }
+    .sectionc .titleres {
+      font-size: 35px;
+      padding-top: 15px;
+      text-decoration: underline; }
+  .boxA h2 {
+    font-size: 20px; }
+  .boxA p {
+    font-size: 12px; }
+  .boxB h2 {
+    font-size: 20px; }
+  .boxB p {
+    font-size: 12px; }
+  .boxB h3 a {
+    color: red;
+    font-size: 22px;
+    text-align: center; }
+  .sectiond h1 {
+    padding-top: 70px; } }
+
+@media (max-width: 399px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0; }
+    .tabs .contab {
+      display: none; }
+      .tabs .contab h4 {
+        display: none; }
+    .tabs .about {
+      display: none; }
+      .tabs .about h4 {
+        display: none; }
+    .tabs .projects {
+      display: none; }
+      .tabs .projects h4 {
+        display: none; }
+    .tabs .resume {
+      display: none; }
+      .tabs .resume h4 {
+        display: none; }
+  .header {
+    height: 660px; }
+    .header .navbar .name {
+      font-size: 68px;
+      padding-top: 100px; }
+    .header .navbar .introinfo h2 {
+      margin-top: 100px; }
+  .sectiona {
+    height: 665px; }
+    .sectiona .subtitle {
+      padding-bottom: 44px; }
     .sectiona .words h1 {
       padding-top: 17px; }
     .sectiona .words h4 {
@@ -191,3 +425,8 @@
     text-align: center; }
   .sectiond h1 {
     padding-top: 70px; } }
+
+@media (min-width: 400px) and (max-width: 1000px) {
+  .sectiona .middle .pic {
+    width: 0%;
+    height: 0%; } }

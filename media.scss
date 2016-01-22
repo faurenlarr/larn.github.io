@@ -124,6 +124,11 @@
 // }
 //
 //
+@media (min-width:1091px) and (max-width:1300px) {
+
+}
+
+
 @media (min-width:901px) and (max-width:1090px) {
   .tabs {
     background-color: #8f91a0;
@@ -158,6 +163,13 @@
       display: none;
 
       h4 {
+        display: none;
+      }
+    }
+  }
+  .sectiona {
+    .middle {
+      .pic {
         display: none;
       }
     }
@@ -266,12 +278,18 @@
 //   }
 // }
 //
-
+.sectiona {
+  .middle {
+    .pic {
+      display: none;
+    }
+  }
+}
 
   } //end of mediaQ
 //
 //
-@media (min-width:670px) and (max-width:800px) {
+@media (min-width:736px) and (max-width:800px) {
   .tabs {
     background-color: #8f91a0;
 
@@ -328,14 +346,95 @@
 
 
   .sectiona {
+    .words {
+     h1 {
+       padding-top: 66px;
+     }
+    }
+    .subtitle {
+      padding-bottom: 44px;
+    }
     .middle {
       .pic {
-        margin-top: -471px;
-        width: 150px;
-        height: 150px;
-        margin-left: 99px;
-        border: 2px solid red;
+        // margin-top: -471px;
+        // width: 150px;
+        // height: 150px;
+        // margin-left: 99px;
+        display: none;
 
+      }
+    }
+  }
+
+
+}
+@media (min-width:670px) and (max-width:735px) {
+  .tabs {
+    background-color: #8f91a0;
+
+    width: 0px;
+    border: none;
+    position: relative;
+
+
+
+    .contab {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .about {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .projects {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .resume {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+  }
+  .header {
+    height: 660px;
+
+    .navbar {
+      .name {
+        font-size: 68px;
+        padding-top: 100px;
+      }
+      .introinfo {
+        h2 {
+          margin-top: 100px;
+        }
+      }
+    }
+  }
+
+
+  .sectiona {
+    .subtitle {
+      padding-bottom: 44px;
+    }
+    .middle {
+      .pic {
+        // margin-top: -471px;
+        // width: 150px;
+        // height: 150px;
+        // margin-left: 99px;
+        display: none;
       }
     }
   }
@@ -344,7 +443,7 @@
 
 }//end of Q
 
-@media (min-width:465px) and (max-width:669px) {
+@media (min-width:606px) and (max-width:669px) {
   .tabs {
     width: 0px;
     border: none;
@@ -398,6 +497,9 @@
   }
 
   .sectiona {
+    .subtitle {
+      padding-bottom: 44px;
+    }
     .middle {
       .pic {
         margin-top: -351px;
@@ -414,9 +516,66 @@
 
 }//end of Q
 
+@media (min-width:551px) and (max-width:605px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0;
 
 
-@media (max-width:464px) {
+
+    .contab {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .about {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .projects {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .resume {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+  }
+  .sectiona {
+    height: 623px;
+    .words {
+      h1 {
+        padding-top: 17px;
+      }
+      h4 {
+        margin-left: 18px;
+      }
+    }
+    .middle {
+      .pic {
+        margin-top: -323px;
+  width: 140px;
+  height: 140px;
+  margin-left: 172px;
+
+      }
+    }
+  }
+}
+@media (min-width:441px) and (max-width:550px) {
   .tabs {
     width: 0px;
     border: none;
@@ -472,6 +631,306 @@
 
 .sectiona {
   height: 623px;
+  .subtitle {
+    padding-bottom: 44px;
+
+  }
+  .words {
+    h1 {
+      padding-top: 17px;
+    }
+    h4 {
+      margin-left: 18px;
+    }
+  }
+  .middle {
+    .pic {
+      margin-top: -365px;
+width: 140px;
+height: 140px;
+margin-left: 172px;
+
+    }
+  }
+}
+
+
+.sectionb {
+height: 200px;
+
+    .viewother {
+      padding-top: 70px;
+      margin-top: -719px;
+      text-align: center;
+      margin-left: 0%;
+      a {
+        font-size: 30px;
+        letter-spacing: 4px;
+      }
+    }
+}
+.one,.two,.three {
+  display: none;
+}
+.contact {
+  display: none;
+}
+.noshow {
+  display:none;
+}
+.sectionc {
+  height: 1014px;
+  .titleres {
+    font-size: 35px;
+    padding-top: 15px;
+    text-decoration: underline;
+  }
+}
+.boxA {
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+.boxB {
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h3 {
+    a {
+      color: red;
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+}
+
+
+.sectiond {
+  h1 {
+    padding-top: 70px;
+  }
+}
+
+
+
+
+
+}//end of Q
+
+
+@media (min-width:400px) and (max-width:440px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0;
+
+
+
+    .contab {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .about {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .projects {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .resume {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+  }
+  .header {
+    height: 660px;
+    .navbar {
+      .name {
+        font-size: 68px;
+        padding-top: 100px;
+      }
+      .introinfo {
+        h2 {
+          margin-top: 100px;
+        }
+      }
+    }
+  }
+
+
+.sectiona {
+  height: 623px;
+  .subtitle {
+    padding-bottom: 44px;
+
+  }
+  .words {
+    h1 {
+      padding-top: 17px;
+    }
+    h4 {
+      margin-left: 18px;
+    }
+  }
+  .middle {
+    .pic {
+      margin-top: -350px;
+width: 140px;
+height: 140px;
+margin-left: 172px;
+
+    }
+  }
+}
+
+
+.sectionb {
+height: 200px;
+
+    .viewother {
+      padding-top: 70px;
+      margin-top: -719px;
+      text-align: center;
+      margin-left: 0%;
+      a {
+        font-size: 30px;
+        letter-spacing: 4px;
+      }
+    }
+}
+.one,.two,.three {
+  display: none;
+}
+.contact {
+  display: none;
+}
+.noshow {
+  display:none;
+}
+.sectionc {
+  height: 1014px;
+  .titleres {
+    font-size: 35px;
+    padding-top: 15px;
+    text-decoration: underline;
+  }
+}
+.boxA {
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+.boxB {
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h3 {
+    a {
+      color: red;
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+}
+
+
+.sectiond {
+  h1 {
+    padding-top: 70px;
+  }
+}
+
+
+
+
+
+}//end of Q
+
+@media (max-width:399px) {
+  .tabs {
+    width: 0px;
+    border: none;
+    position: relative;
+    background-color: #8f91a0;
+
+
+
+    .contab {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .about {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .projects {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+    .resume {
+      display: none;
+
+      h4 {
+        display: none;
+      }
+    }
+  }
+  .header {
+    height: 660px;
+    .navbar {
+      .name {
+        font-size: 68px;
+        padding-top: 100px;
+      }
+      .introinfo {
+        h2 {
+          margin-top: 100px;
+        }
+      }
+    }
+  }
+
+
+.sectiona {
+  height: 665px;
+  .subtitle {
+    padding-bottom: 44px;
+  }
   .words {
     h1 {
       padding-top: 17px;
@@ -557,3 +1016,14 @@ height: 200px;
 
 
   }// end of mediaQ
+
+  @media  (min-width:400px) and (max-width:1000px) {
+    .sectiona {
+      .middle {
+        .pic {
+          width: 0%;
+          height: 0%;
+        }
+      }
+    }
+  }
