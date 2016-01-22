@@ -1,129 +1,4 @@
-//
-// @media (min-width:1091px) and (max-width:1320px) {
-// .sectiona {
-//   .middle {
-//     .pic {
-//
-//     }
-//   }
-// }
-// }
-//
-// @media (min-width:901px) and (max-width:1090px) {
-//
-//
-//   .sectionb {
-//   height: auto;
-//
-//       .viewother {
-//         padding-top: 0px;
-//         margin-top: -664px;
-//         text-align: center;
-//         margin-left: 10px;
-//         a {
-//           font-size: 50px;
-//           letter-spacing: 4px;
-//         }
-//       }
-//   }
-//   .one,.two,.three {
-//     display: none;
-//   }
-//   .contact {
-//     display: none;
-//   }
-//   .noshow {
-//     display:none;
-//   }
-//
-//   .sectiona {
-//     height: 700px;
-//     .words {
-//       h1 {
-//         padding-top: 75px;
-//         font-size: 25px;
-//       }
-//       h4 {
-//         // margin-top: 189px;
-//         // margin-left: 10px;
-//         margin-top: 102px;
-//         margin-left: 10px;
-//         font-size: 18px;
-//         // line-height: 58px;
-//               }
-//       h5 {
-//         font-size: 35px;
-//       }
-//     }
-//     .middle {
-//       .pic {
-//         width: 250px;
-//         height: 250px;
-//         position: absolute;
-//         margin-top: -640px;
-//         margin-left: 502px;
-//       }
-//     }
-//   }
-//
-// .sectionc {
-//   height: auto;
-// .titleres {
-//   display: none;
-//
-// }
-//   .boxC {
-//     strong {
-//       font-size: 30px;
-//     }
-//     p {
-//         font-size: 25px;
-//         line-height: 40px;
-//     }
-//     h2 {
-//       font-size: 120px;
-//     }
-//   }
-//       .boxB {
-//         h2 {
-//           font-size: 120px;
-//         }
-//         p {
-//           font-size: 18px;
-//           line-height: 40px;
-//
-//         }
-//         h3 {
-//         a {
-//             display: none;
-//         }
-//
-//         }
-//         strong {
-//           font-size: 30px;
-//         }
-//
-//       }
-//     .boxA {
-//       h2 {
-//         font-size: 120px;
-//       }
-//       p {
-//         font-size: 18px;
-//         line-height: 40px;
-//
-//       }
-//       strong {
-//         font-size: 30px;
-//       }
-//     }
-// }
-//
-//
-//
-// }
-//
-//
+
 @media (min-width:1091px) and (max-width:1300px) {
 
 }
@@ -216,68 +91,7 @@
     }
   }
 
-// .sectionb {
-// height: 200px;
-//
-//     .viewother {
-//       padding-top: 70px;
-//       margin-top: -719px;
-//       text-align: center;
-//       margin-left: 0%;
-//       a {
-//         font-size: 30px;
-//         letter-spacing: 4px;
-//       }
-//     }
-// }
-// .one,.two,.three {
-//   display: none;
-// }
-// .contact {
-//   display: none;
-// }
-// .noshow {
-//   display:none;
-// }
-// .sectionc {
-//   height: 1175px;
-//   .titleres {
-//     font-size: 35px;
-//     padding-top: 15px;
-//     text-decoration: underline;
-//   }
-// }
-// .boxA {
-//   h2 {
-//     font-size: 20px;
-//   }
-//   p {
-//     font-size: 12px;
-//   }
-// }
-// .boxB {
-//   h2 {
-//     font-size: 20px;
-//   }
-//   p {
-//     font-size: 12px;
-//   }
-//   h3 {
-//     a {
-//       color: red;
-//       font-size: 22px;
-//       text-align: center;
-//     }
-//   }
-// }
-//
-//
-// .sectiond {
-//   h1 {
-//     padding-top: 70px;
-//   }
-// }
-//
+
 .sectiona {
   .middle {
     .pic {
@@ -672,9 +486,9 @@ height: 200px;
 .one,.two,.three {
   display: none;
 }
-.contact {
-  display: none;
-}
+// .contact {
+//   display: none;
+// }
 .noshow {
   display:none;
 }
@@ -1024,6 +838,40 @@ height: 200px;
           width: 0%;
           height: 0%;
         }
+      }
+    }
+  }
+
+  @media (min-width:505px) and (max-width:1090px) {
+
+    .sectionc {
+      height: 951px;
+    }
+
+  }
+
+  @media (max-width:1200px) {
+    .sectionb {
+    height: 200px;
+
+        .viewother {
+          padding-top: 70px;
+          margin-top: -719px;
+          text-align: center;
+          margin-left: 0%;
+          a {
+            font-size: 30px;
+            letter-spacing: 4px;
+          }
+        }
+    }
+    .one,.two,.three {
+      display: none;
+    }
+    .contact {
+      display: none;
+      span {
+        display: none;
       }
     }
   }

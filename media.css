@@ -243,8 +243,6 @@
         letter-spacing: 4px; }
   .one, .two, .three {
     display: none; }
-  .contact {
-    display: none; }
   .noshow {
     display: none; }
   .sectionc {
@@ -430,3 +428,25 @@
   .sectiona .middle .pic {
     width: 0%;
     height: 0%; } }
+
+@media (min-width: 505px) and (max-width: 1090px) {
+  .sectionc {
+    height: 951px; } }
+
+@media (max-width: 1200px) {
+  .sectionb {
+    height: 200px; }
+    .sectionb .viewother {
+      padding-top: 70px;
+      margin-top: -719px;
+      text-align: center;
+      margin-left: 0%; }
+      .sectionb .viewother a {
+        font-size: 30px;
+        letter-spacing: 4px; }
+  .one, .two, .three {
+    display: none; }
+  .contact {
+    display: none; }
+    .contact span {
+      display: none; } }
