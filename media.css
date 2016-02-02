@@ -149,6 +149,8 @@
       margin-top: 100px; }
   .sectiona .subtitle {
     padding-bottom: 44px; }
+  .sectiona .words h4 {
+    margin-top: 40px; }
   .sectiona .middle .pic {
     margin-top: -351px;
     width: 150px;
@@ -182,7 +184,8 @@
     .sectiona .words h1 {
       padding-top: 17px; }
     .sectiona .words h4 {
-      margin-left: 18px; }
+      margin-left: 18px;
+      margin-top: 45px; }
     .sectiona .middle .pic {
       margin-top: -323px;
       width: 140px;
@@ -225,7 +228,8 @@
     .sectiona .words h1 {
       padding-top: 17px; }
     .sectiona .words h4 {
-      margin-left: 18px; }
+      margin-left: 18px;
+      margin-top: 9px; }
     .sectiona .middle .pic {
       margin-top: -365px;
       width: 140px;
@@ -302,7 +306,8 @@
     .sectiona .words h1 {
       padding-top: 17px; }
     .sectiona .words h4 {
-      margin-left: 18px; }
+      margin-left: 18px;
+      margin-top: 9px; }
     .sectiona .middle .pic {
       margin-top: -350px;
       width: 140px;

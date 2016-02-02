@@ -29,7 +29,8 @@ li {
   background-color: white;
   max-height: 50px;
   border-top: 4px solid #c9ddbc;
-  border-bottom: 4px solid #c9ddbc; }
+  border-bottom: 4px solid #c9ddbc;
+  box-shadow: 2px 2px 4px #9b9eb4; }
   .tabs .projects {
     text-align: center;
     display: inline-block; }
