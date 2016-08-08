@@ -446,7 +446,11 @@ li {
     background-color: #e4eedd;
     height: 700px;
 
-
+    .one {
+      div>h4>a {
+        margin-left:30px;
+      }
+    }
 
       .one, .two, .three {
         .projinfo {
